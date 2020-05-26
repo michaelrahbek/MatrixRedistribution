@@ -1,0 +1,33 @@
+[n-62-31-16:198542] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././.][./././././././././././.]
+[n-62-31-16:198542] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [./B/./././././././././.][./././././././././././.]
+[n-62-31-16:198549] *** Process received signal ***
+[n-62-31-16:198549] Signal: Segmentation fault (11)
+[n-62-31-16:198549] Signal code: Address not mapped (1)
+[n-62-31-16:198549] Failing at address: (nil)
+[n-62-31-16:198549] [ 0] /lib64/libpthread.so.0(+0xf630)[0x7f19ac0de630]
+[n-62-31-16:198549] [ 1] /lib64/libc.so.6(+0x1562d4)[0x7f19abe572d4]
+[n-62-31-16:198549] [ 2] ./project[0x4015d8]
+[n-62-31-16:198549] [ 3] ./project[0x401c1c]
+[n-62-31-16:198549] [ 4] ./project[0x400e4d]
+[n-62-31-16:198549] [ 5] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f19abd23545]
+[n-62-31-16:198549] [ 6] ./project[0x400f53]
+[n-62-31-16:198549] *** End of error message ***
+[n-62-31-16:198548] *** Process received signal ***
+[n-62-31-16:198548] Signal: Segmentation fault (11)
+[n-62-31-16:198548] Signal code: Address not mapped (1)
+[n-62-31-16:198548] Failing at address: (nil)
+[n-62-31-16:198548] [ 0] /lib64/libpthread.so.0(+0xf630)[0x7f813df8f630]
+[n-62-31-16:198548] [ 1] /lib64/libc.so.6(+0x1562d4)[0x7f813dd082d4]
+[n-62-31-16:198548] [ 2] ./project[0x4015d8]
+[n-62-31-16:198548] [ 3] ./project[0x401c1c]
+[n-62-31-16:198548] [ 4] ./project[0x400e4d]
+[n-62-31-16:198548] [ 5] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f813dbd4545]
+[n-62-31-16:198548] [ 6] ./project[0x400f53]
+[n-62-31-16:198548] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node n-62-31-16 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

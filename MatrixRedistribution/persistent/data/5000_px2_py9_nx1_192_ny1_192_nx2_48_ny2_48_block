@@ -1,0 +1,11 @@
+Arguments:
+  N = 5000
+  nblock_r1 = 192 and nblock_c1 = 192
+  p_r1 = 2 and p_c1 = 9
+  nblock_r2 = 48 and nblock_c2 = 48
+  p_r2 = 2 and p_c2 = 9
+  MPI processors: 18
+
+Start redistribute matrix from nb_r=192 and nb_c=192 to nb_r=48 and nb_c=48
+Done redistributing matrix from nb_r=192 and nb_c=192 to nb_r=48 and nb_c=48
+Time min/avg/max    4.01994622 /   4.04484667 /   4.06978616

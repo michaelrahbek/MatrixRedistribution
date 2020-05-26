@@ -1,0 +1,29 @@
+[n-62-31-24:115409] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././.][./././././././././././.]
+[n-62-31-24:115409] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [./B/./././././././././.][./././././././././././.]
+[n-62-31-24:115417] *** Process received signal ***
+[n-62-31-24:115417] Signal: Segmentation fault (11)
+[n-62-31-24:115417] Signal code:  (128)
+[n-62-31-24:115417] Failing at address: (nil)
+[n-62-31-24:115417] [ 0] /lib64/libpthread.so.0(+0xf630)[0x7f9d785d1630]
+[n-62-31-24:115417] [ 1] ./project[0x4020a8]
+[n-62-31-24:115417] [ 2] ./project[0x400efb]
+[n-62-31-24:115417] [ 3] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9d78216545]
+[n-62-31-24:115417] [ 4] ./project[0x400ff3]
+[n-62-31-24:115417] *** End of error message ***
+[n-62-31-24:115416] *** Process received signal ***
+[n-62-31-24:115416] Signal: Segmentation fault (11)
+[n-62-31-24:115416] Signal code: Address not mapped (1)
+[n-62-31-24:115416] Failing at address: 0xfffffffffffdf300
+[n-62-31-24:115416] [ 0] /lib64/libpthread.so.0(+0xf630)[0x7f113df90630]
+[n-62-31-24:115416] [ 1] ./project[0x4020a8]
+[n-62-31-24:115416] [ 2] ./project[0x400efb]
+[n-62-31-24:115416] [ 3] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f113dbd5545]
+[n-62-31-24:115416] [ 4] ./project[0x400ff3]
+[n-62-31-24:115416] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node n-62-31-24 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
